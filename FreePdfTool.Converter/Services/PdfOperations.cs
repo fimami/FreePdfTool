@@ -35,6 +35,7 @@ namespace FreePdfTool.Converter.Services
                     {
                         // Get the page from the external document...
                         PdfPage page = inputDocument.Pages[idx];
+                        page.Size = PdfSharp.PageSize.A4;
                         // ...and add it to the output document.
                         outputDocument.AddPage(page);
                     }
@@ -65,6 +66,7 @@ namespace FreePdfTool.Converter.Services
                 {
                     // Get the page from the external document...
                     PdfPage page = inputDocument.Pages[idx];
+                    page.Size = PdfSharp.PageSize.A4;
                     // ...and add it to the output document.
                     outputDocument.AddPage(page);
                 }

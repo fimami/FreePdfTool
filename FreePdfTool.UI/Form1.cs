@@ -16,7 +16,6 @@ namespace FreePdfTool.UI
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Title = "Select File to merge";
-            openFileDialog1.InitialDirectory = "C:\\";
             openFileDialog1.Filter = "PDF Files (*.pdf)|*.pdf";
             openFileDialog1.FilterIndex = 1;
             openFileDialog1.ShowDialog();
