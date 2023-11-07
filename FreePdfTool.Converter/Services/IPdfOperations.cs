@@ -1,7 +1,8 @@
 ﻿namespace FreePdfTool.Converter.Services
 {
-    internal interface IPdfOperations
+    public interface IPdfOperations
     {
-        void ConcatenateDocuments(List<byte[]> orderedFilePaths, string outPath, bool openAfterSave);
+        void ConcatenateDocuments(List<byte[]> orderedFiles, string outPath, bool openAfterSave);
+        void ConcatenateDocuments(List<string> orderedFilePaths, string outPath, bool openAfterSave);
     }
 }

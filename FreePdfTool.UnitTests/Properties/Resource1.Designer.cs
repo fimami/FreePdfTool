@@ -69,5 +69,15 @@ namespace FreePdfTool.UnitTests.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] sql_merkblatt {
+            get {
+                object obj = ResourceManager.GetObject("sql_merkblatt", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

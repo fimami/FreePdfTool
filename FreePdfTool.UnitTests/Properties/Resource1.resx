@@ -121,4 +121,7 @@
   <data name="github_git_cheat_sheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>github-git-cheat-sheet.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="sql_merkblatt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sql-merkblatt.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
