@@ -123,7 +123,7 @@
             Controls.Add(listBox1);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "FreePdfTool";
             ResumeLayout(false);
             PerformLayout();
         }
