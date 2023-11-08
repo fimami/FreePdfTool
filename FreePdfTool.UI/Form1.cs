@@ -30,7 +30,7 @@ namespace FreePdfTool.UI
             if (listBox1.SelectedItems.Count > 0)
             {
                 var helperList = new List<object>();
-                foreach (var item in listBox1.Items)
+                foreach (var item in listBox1.SelectedItems)
                 {
                     helperList.Add(item);
                 }
@@ -62,5 +62,11 @@ namespace FreePdfTool.UI
                 }
             }
         }
+
+        // TODO: Add arrow button logic
+
+        // TODO: Add page numbers
+
+        // TODO: Better visuals
     }
 }

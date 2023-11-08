@@ -141,7 +141,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FreePdfTool"
         "ProductCode" = "8:{872EBFA2-8F84-4B9C-88DC-3E3202A0C37D}"
-        "PackageCode" = "8:{7FBE24B0-C58B-485A-A650-5762D585FC57}"
+        "PackageCode" = "8:{1D1AF25A-E58D-474C-B2B1-A73EA07666F3}"
         "UpgradeCode" = "8:{A9868367-B599-4DD8-9705-0B088C6B3E12}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -261,6 +261,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_57A660C33B6A4428A29C0FEDACD83219"
+            {
+            "Name" = "8:FreePdfTool"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_A2D577226A33413AAD50CB6BF806CBB9"
+            "Folder" = "8:_9C9FCD8A60F9438BA4CF8AF894334427"
+            "WorkingFolder" = "8:_F4CDABE6763049F8BEE5BD065CBAFF4B"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7DCB1A10DCF2419DB683B04A8CE62826"
             {
             "Name" = "8:FreePdfTool"

@@ -6,6 +6,7 @@ using System.Text;
 
 namespace FreePdfTool.Converter.Services
 {
+    // TODO: Consider horizontal pages
     public class PdfOperations : IPdfOperations
     {
         private readonly ILogger<PdfOperations> _logger;
