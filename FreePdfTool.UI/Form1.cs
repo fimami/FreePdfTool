@@ -63,6 +63,64 @@ namespace FreePdfTool.UI
             }
         }
 
+        /// <summary>
+        /// Move one selected listBox1 item up in order to merge
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItems.Count > 0)
+            {
+                if (listBox1.SelectedItems.Count == 1)
+                {
+                    var index = listBox1.SelectedIndex;
+                    var indexBefore = listBox1.SelectedIndex - 1;
+
+                    if (indexBefore < 0)
+                    {
+                        return;
+                    }
+
+                    var selectedItem = listBox1.Items[index];
+                    var itemBefore = listBox1.Items[indexBefore];
+                    listBox1.Items[index] = itemBefore;
+                    listBox1.Items[indexBefore] = selectedItem;
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[indexBefore];
+                }
+            }
+        }
+
+        /// <summary>
+        /// Move one selected listBox1 item down in order to merge
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItems.Count > 0)
+            {
+                if (listBox1.SelectedItems.Count == 1)
+                {
+                    var index = listBox1.SelectedIndex;
+                    var indexAfter = listBox1.SelectedIndex + 1;
+
+                    if (indexAfter < 0)
+                    {
+                        return;
+                    }
+
+                    var selectedItem = listBox1.Items[index];
+                    var itemBefore = listBox1.Items[indexAfter];
+                    listBox1.Items[index] = itemBefore;
+                    listBox1.Items[indexAfter] = selectedItem;
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[indexAfter];
+                }
+            }
+        }
+
         // TODO: Add arrow button logic
 
         // TODO: Add page numbers
