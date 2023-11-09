@@ -27,7 +27,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\FreePdfTool.Setup.msi"
+        "OutputFilename" = "8:..\\Setup\\FreePdfTool.Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -44,6 +44,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -51,7 +59,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\FreePdfTool.Setup.msi"
+        "OutputFilename" = "8:..\\Setup\\FreePdfTool.Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -165,7 +173,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FreePdfTool"
         "ProductCode" = "8:{872EBFA2-8F84-4B9C-88DC-3E3202A0C37D}"
-        "PackageCode" = "8:{AAC279C4-08D0-451A-BFBB-5FA793DC648C}"
+        "PackageCode" = "8:{722D8034-94AF-40FE-810C-46C2EB4535FA}"
         "UpgradeCode" = "8:{A9868367-B599-4DD8-9705-0B088C6B3E12}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
